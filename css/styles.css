@@ -264,6 +264,58 @@ body {
     margin-bottom: 60px;
 }
 
+
+/* Contact me */
+
+.contact {
+    padding: 0px 20px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact--me {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.25em;
+    color: #666C81;
+}
+.contact__icon--color {
+    font-size: 2em;
+    margin-right: 10px;
+    color:#3C6AFF;
+}
+.contact__icon--colorWhite {
+    color:#ffffff;
+}
+
+.contact__whatsapp--direct {
+    margin-top:40px;
+    display: flex;
+    align-items: center;
+}
+.contact__whatsapp--button {
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-weight: 700;
+    color:#ffffff;
+    background:#3C6AFF;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+
+.contact__whatsapp--button:hover {
+    background:#666C81;
+}
+
+
 /* Universal Footer */ 
 
 .footer {
@@ -436,6 +488,23 @@ body {
     .head__presentation--description {
         font-size: 0.75em;
         
+    }
+
+    .contact__whatsapp--direct {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__whatsapp--button {
+        margin-top:10px;
+        margin-left: 0px;
+    }
+
+    .contact--me, .contact__whatsapp--button  {
+        font-size:0.875em;
+    }
+    .contact__icon--color {
+        font-size: 1em;
     }
 }
 
