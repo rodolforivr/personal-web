@@ -243,7 +243,7 @@ body {
 }
 
 .aboutMe__profile {
-    max-width: 800px;
+    max-width: 700px;
     margin: 0px auto;
     
 }
@@ -253,12 +253,18 @@ body {
 }
 
 .aboutMe__profile--title {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.aboutMe__profile--subTitle {
     font-size: 1.125em;
     margin-bottom: 10px;
 }
 
 .aboutMe__profile--text {
     font-size: 1.125em;
+    margin-bottom: 20px;
 }
 
 .aboutMe__profile--container {
